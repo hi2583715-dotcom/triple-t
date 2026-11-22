@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.witherform.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SwapHandsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

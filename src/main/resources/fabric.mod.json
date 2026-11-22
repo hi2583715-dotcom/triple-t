@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "witherform",
+  "version": "${version}",
+  "name": "Wither Form",
+  "description": "Hold the Wither Skull in your offhand to transform into the Wither: flight, soul-fire wings, and skull attacks.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.witherform.WitherForm"]
+  },
+  "mixins": ["witherform.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
